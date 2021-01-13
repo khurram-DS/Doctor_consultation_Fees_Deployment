@@ -1,0 +1,57 @@
+
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Doctor consultation fees</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='doc.ico') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class="heading_font">Consultation fee Predictor</span></h2>
+            <div class='description'>
+    			<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+    		</div>
+    	</div>
+
+        <!-- Text Area -->
+    	<div class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST">
+                <input class="form-input" type="text" name="Experience" placeholder="Year of Experience eg. 0"><br>
+                <input class="form-input" type="text" name="Rating" placeholder="Rating Percentage eg. 100"><br>
+                <input class="form-input" type="text" name="Profile" placeholder="0-Ayurveda,1-Dentist,2-Dermatologists,3-ENT Specialist,4-General Medicine,5-Homeopath"><br>
+                
+
+        		<input type="submit" class="my-cta-button" value="Predict">
+        	</form>
+            
+            <br>
+            {{ prediction_text }}
+            <br>
+            <br>
+            <br>
+    	</div>
+
+        <!-- Footer -->
+       <div class='footer'>
+           <br>
+           <br>
+           <div class="contact">
+               <a target="_blank" href="https://github.com/khurram-DS/Doctor_consultation_Fees_Deployment"><i class="fab fa-github fa-lg contact-icon"></i></a>
+               <a target="_blank" href="https://www.linkedin.com/in/khurram-shakoor-b49a2314a/"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+           </div>
+           <p class='footer-description'>Created by Khurram shakoor.</p>
+       </div>
+
+    </body>
+</html>
