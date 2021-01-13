@@ -1,5 +1,5 @@
 # Doctor_consultation_Fees_Deployment
-![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)![Heroku](https://img.shields.io/badge/Deployment-Heruko-red.svg)![Spydor](https://img.shields.io/badge/IDE-Spyder-red.svg)
+![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg)  ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg)  ![scikit-learnn](https://img.shields.io/badge/Library-Scikit_Learn-orange.svg)  ![Heroku](https://img.shields.io/badge/Deployment-Heruko-purple.svg)  ![Spydor](https://img.shields.io/badge/IDE-Spyder-green.svg)
 ## Problem Statement
 • We have all been in situation where we go to a doctor in emergency and find that the consultation fees are too high. As a data scientist we all should do better. What if you have data that records important details about a doctor and you get to build a model to predict the doctor’s consulting fee?
 
