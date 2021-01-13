@@ -6,3 +6,8 @@
 • In this repository you will find __Code__, __Algorithms used__ and __Accuracy__ of the model.
 ## If you want to view the deployed model, click on the following link:<br />
 Deployed at: _https://doctor-consultation-api.herokuapp.com/_
+
+
+• A glimpse of the web app:
+
+![GIF](readme_resources/consultationfees.gif)
